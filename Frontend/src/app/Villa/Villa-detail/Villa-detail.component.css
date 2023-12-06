@@ -1,0 +1,26 @@
+.card{
+    min-height: 500px;
+}
+
+.card img{
+    padding: 10px;
+    height: 80%;
+    font-weight: 30px;
+}
+.card-body-title{
+    color: blue;
+}
+
+.card-body-rate{
+    color:black;
+}
+.Details-title{
+    color: rgb(0, 255, 187);
+}
+.view-details{
+    font-size: 400px;
+    font-style: italic;
+    color: brown;
+    padding: 20px;
+
+}

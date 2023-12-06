@@ -1,0 +1,33 @@
+<div class="card">
+    <div class="card-img-wrapper">
+    <img class="card-img-top" src="assets/Images/{{villa.image}}.jpg">
+    <ul class="list-inline text-center member-icons animate">
+        <li class="list-inline-item">
+            <button class="btn btn-primary" routerLink="/Villa-detail/{{villa.id}}"><i class="far fa-edit"></i></button>
+        </li>
+        <li class="list-inline-item">
+            <button class="btn btn-primary"><i class="far fa-address-book"></i></button>
+        </li>
+    </ul>
+
+
+    </div>
+    <div class="card-body p-2">
+        <div class="card-body-title">
+            <h1>{{villa.name}}</h1>
+
+        </div>
+
+        <h2> Rate: {{villa.rate}}</h2>
+        <!-- <h4>{{villa.occupancy}}</h4>
+        <h4>{{villa.sqft}}</h4> -->
+        <!-- <h4>{{villa.details}}</h4> -->
+
+    </div>
+
+</div>
+
+
+
+
+

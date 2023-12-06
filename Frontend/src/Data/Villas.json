@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Royal Villa",
+      "details": "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+      "rate": 200,
+      "occupancy": 4,
+      "sqft": 550,
+      "image":"Villa1"
+   
+    },
+    {
+      "id": 2,
+      "name": "Premium Pool Villa",
+      "details": "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+      "rate": 300,
+      "occupancy": 4,
+      "sqft": 550,
+      "image":"villa2"
+   
+    },
+    {
+      "id": 3,
+      "name": "Luxury Pool Villa",
+      "details": "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+      "rate": 400,
+      "occupancy": 4,
+      "sqft": 750,
+      "image":"villa3"
+   
+    },
+
+    {
+      
+      "id": 4,
+      "name": "Diamond Villa",
+      "details": "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+      "rate": 550,
+      "occupancy": 4,
+      "sqft": 900,
+      "image":"villa4"
+   
+    },
+
+    {
+      
+      "id": 5,
+      "name": "Diamond Pool Villa",
+      "details": "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+      "rate": 600,
+      "occupancy": 4,
+      "sqft": 1100,
+      "image":"villa5"
+   
+    } 
+
+   
+
+    
+    
+
+
+]
