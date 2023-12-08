@@ -12,11 +12,8 @@ import { VillaDetailComponent } from './Villa/Villa-detail/Villa-detail.componen
 
 const appRoutes: Routes = [
   {path: '', component: VillaListComponent},
-  {path: 'Villa-detail/:id', component: VillaDetailComponent},
-
-  
+  {path: 'Villa-detail/:id', component: VillaDetailComponent}, 
 ];
-
 @NgModule({
   declarations: [	
     AppComponent,

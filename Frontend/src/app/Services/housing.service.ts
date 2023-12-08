@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { IVilla } from '../Villa/IVilla.interface';
 import { Observable } from 'rxjs';
+import { Villa } from '../Villa/Villa';
 
 
 
@@ -19,11 +20,13 @@ export class HousingService {
   // }
 
   getVilla(id: number){
-    return this.getAllVillas().pipe(
-      map(VillasArray =>{
-        return VillasArray.find(p=>p.id==id);
-      })
-    );
+
+    return this.http.get<Villa>('http://localhost:5120/api/villa/id?id='+id).pipe();
+    // return this.getAllVillas().pipe(
+    //   map(VillasArray =>{
+    //     return VillasArray.find(p=>p.id==id);
+    //   })
+    // );
   }
 
   getAllVillas(): Observable<IVilla[]>{

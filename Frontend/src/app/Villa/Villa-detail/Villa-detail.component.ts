@@ -11,25 +11,13 @@ import { Villa } from '../Villa';
   styleUrls: ['./Villa-detail.component.css']
 })
 export class VillaDetailComponent implements OnInit {
-
-
-
 public villaId: number;
 villa= new Villa();
-
-
-
   constructor(private route: ActivatedRoute, private housingService: HousingService)
    {
     this.villaId=0;
-
-
-
    }
-
   ngOnInit() {
-
-
     this.villaId = this.route.snapshot.params['id'];
     this.housingService.getVilla(this.villaId).subscribe(
       data=>{
@@ -40,13 +28,6 @@ villa= new Villa();
         this.villa.image= data!.image;
         this.villa.occupancy=data!.occupancy;
       }
-
-    // this.route.params.subscribe(
-    //   (params)=>{
-    //     this.villaId = +params['id'];
-
-    //     )
-    //   }
     )
   }
 

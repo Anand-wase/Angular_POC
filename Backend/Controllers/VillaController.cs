@@ -24,27 +24,14 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet]
-        // [EnableCors("AllowOrigin")] 
-
         public IEnumerable<Villa> GetVillas()
         {
             return _db.Villas;
-            // return new List<VillaDTO>{
-            //     new VillaDTO{
-            //         Id=1, Name="Pool View"
-            //     },
-            //     new VillaDTO{
-            //         Id=2, Name="Beach View"
-            //     }
-            // };
         }
         [HttpGet("id")]
-        // [EnableCors("AllowOrigin")] 
-
         public Villa GetVilla(int id)
         {
-            return _db.Villas.FirstOrDefault(u=>u.Id==id);
-           
+            return _db.Villas.FirstOrDefault(u=>u.Id==id);  
         }
 
 
